@@ -20,7 +20,7 @@ int treemax(Node* root) {
         return -1;
     }
     
-    else if(root->left == NULL){
+    else if(root->right == NULL){
         return root->data;
     }
     
